@@ -30,26 +30,29 @@ a {
 }
 
 .home-img {
-  position: absolute;
-  top: 0;
-  left: 0;
   z-index: -1;
-  margin: 0;
-  padding: 0;
-  width: 100%;
+  padding-top: 90px;
+  padding-bottom: 30px;
+  width: 80%;
+  height: auto;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 
 #enter {
-  font-size: 1.8rem;
-  font-weight: 600;
-  padding: 1rem 6rem;
+  font-size: 0.9rem;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 400;
+  padding: 0.7rem 2rem;
   text-align: center !important;
-  border: 0.1rem solid #FFD989;
+  border: 0.1rem solid black;
   text-decoration: none;
-  color: #3B2921;
-  background-color: #FFD989;
+  color: black;
+  background-color: white;
   border-radius: 37px;
-  display: inline-block;
+  display: block;
+  margin: 0 auto;
 }
 
 #enter:hover {
